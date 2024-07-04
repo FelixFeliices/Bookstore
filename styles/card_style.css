@@ -1,0 +1,88 @@
+.book_card {
+  width: 100%;
+  max-width: 720px;
+  background-color: aliceblue;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: end;
+}
+
+.divider {
+  background-color: rgb(127, 188, 213);
+  width: 100%;
+  height: 2px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cover_section {
+  display: flex;
+  justify-content: center;
+}
+
+.book_infos_section_all {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.price_like_line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.book_info_section {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.comment_section {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: fit-content;
+}
+
+.comment_box {
+  display: flex;
+  flex-direction: row;
+}
+
+#commentor {
+  min-width: 160px;
+}
+
+#comment {
+  max-height: 80px;
+  overflow-y: scroll;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 36px;
+  align-items: center;
+}
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(127, 188, 213);
+}
+
+button {
+  height: 100%;
+}
