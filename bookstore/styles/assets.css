@@ -1,0 +1,16 @@
+img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    /* box-shadow: 0px 0px 100px 10px #186161; */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    box-shadow: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}

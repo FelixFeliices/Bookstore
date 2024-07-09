@@ -1,0 +1,144 @@
+.book_card {
+    width: 100%;
+    max-width: 720px;
+    background-color: #0A3949;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: end;
+}
+
+.divider {
+    background-color: rgb(127, 188, 213);
+    width: 100%;
+    height: 2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cover_section {
+    display: flex;
+    justify-content: center;
+}
+
+.book_infos_section_all {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.price_like_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.price {
+    color: #FB6860;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#likes_box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.book_info_section {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.comment_section {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: fit-content;
+}
+
+.comment_box {
+    display: flex;
+    flex-direction: column;
+    max-height: 80px;
+    overflow-y: scroll;
+    gap: 8px;
+}
+
+.comment_box::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 3px;
+}
+
+.comment_box::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgb(127, 188, 213);
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+#name {
+    width: 25%;
+}
+
+#comment {
+    width: 75%;
+}
+
+.input_section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 36px;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(127, 188, 213);
+    background-color: #1e596e;
+    border-radius: 8px 0 0 8px;
+}
+
+input::placeholder {
+    padding-left: 8px;
+    color: white;
+}
+
+input:focus {
+    border-top: 2px solid rgb(127, 188, 213);
+    border-left: 2px solid rgb(127, 188, 213);
+    border-bottom: 2px solid rgb(127, 188, 213);
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+    padding: 8px;
+}
+
+button {
+    height: 100%;
+    width: 36px;
+    background-color: white;
+    border: none;
+    padding: 0;
+    border-radius: 0 8px 8px 0;
+}

@@ -1,0 +1,42 @@
+@media(max-width: 750px) {
+    header {
+        height: 80px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    main {
+        font-size: 14px;
+        padding: 24px 120px 24px 120px;
+    }
+    .price {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 600px) {
+    h2 {
+        text-wrap: nowrap;
+    }
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    main {
+        padding: 24px 40px 24px 40px;
+    }
+}
+
+@media(max-width: 580px) {
+    .title {
+        display: flex;
+        padding: 8px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 580px) {
+    h1 {
+        font-size: 24px;
+    }
+}
